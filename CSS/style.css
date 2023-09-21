@@ -210,3 +210,12 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     display: block;
   }
 }
+
+.fivelogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
