@@ -667,3 +667,65 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   right: 0;
   z-index: 1;
 }
+
+.parteight {
+  background-color: white;
+  padding-top: 80px;
+  text-align: center;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.parteight .redtext {
+  color: red;
+  font-size: 13px;
+}
+.parteight h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.parteight .fourboxes {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.parteight .fourboxes .box1,
+.parteight .fourboxes .box2,
+.parteight .fourboxes .box3,
+.parteight .fourboxes .box4 {
+  text-align: left;
+  box-sizing: border-box;
+}
+.parteight .fourboxes .box1 img,
+.parteight .fourboxes .box2 img,
+.parteight .fourboxes .box3 img,
+.parteight .fourboxes .box4 img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 25px;
+}
+.parteight .fourboxes .box1 p,
+.parteight .fourboxes .box2 p,
+.parteight .fourboxes .box3 p,
+.parteight .fourboxes .box4 p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.parteight .fourboxes .box1 .line,
+.parteight .fourboxes .box2 .line,
+.parteight .fourboxes .box3 .line,
+.parteight .fourboxes .box4 .line {
+  border: 1px solid grey;
+}
+.parteight .fourboxes .box1 .righttext,
+.parteight .fourboxes .box2 .righttext,
+.parteight .fourboxes .box3 .righttext,
+.parteight .fourboxes .box4 .righttext {
+  text-align: right;
+  font-weight: 100;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
