@@ -32,8 +32,29 @@ html, body {
          border: 1px solid #191919;
          color: #e9e9e9;
     }
-    
+}
 
+.btn-yellow-2 {
+    background-color: #F9D783;
+    border: 1px solid black;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+
+    i {
+        margin-left: 8px;
+        font-size: 0.9em;
+
+    }
+
+    &:hover {
+         background-color: #191919;
+         border: 1px solid #191919;
+         color: #e9e9e9;
+    }
 }
 
 .btn-transparent {
@@ -819,4 +840,82 @@ header {
         }    
     }
     
+}
+
+.partnine {
+    background-color: #F0D082;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    .container {
+        max-width: 1320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .top-part {
+            text-align: left;
+            margin-bottom: 20px;
+            
+            .redtext  {
+                color: red;
+                font-size: 13px;
+                padding-top: 100px;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 600;
+                display: inline-block;
+                margin-right: 570px;
+            }
+        }
+    }
+
+    .TeamIMG {
+        display: flex;
+        justify-content: space-between;
+
+        .IMG1,
+        .IMG2,
+        .IMG3,
+        .IMG4 {
+            text-align: left;
+            margin: 13px;
+            max-width: 1320px;
+            padding-top: 70px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .Lowertext {
+            font-size: 13px;
+            font-weight: 100;
+        }
+
+        
+        
+    } 
+
+    .dots-container {
+        text-align: center;
+    
+        .dot {
+          display: inline-block;
+          width: 12px;  
+          height: 12px;
+          background-color: grey; 
+          margin: 0 5px; 
+          border-radius: 50%;
+    
+          &.active, &:hover {
+            background-color: black; 
+          }
+        }    
+    }      
 }
