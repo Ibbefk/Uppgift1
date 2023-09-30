@@ -925,7 +925,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .partten .top-part .redtext {
   color: red;
-  font-size: 13px;
+  font-size: 15px;
 }
 .partten .top-part a {
   float: right;
@@ -954,7 +954,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .partten .dots-container {
   padding-top: 90px;
   text-align: center;
-  padding-bottom: 120px;
+  padding-bottom: 45px;
 }
 .partten .dots-container .dot {
   display: inline-block;
