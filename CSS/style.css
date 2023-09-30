@@ -999,3 +999,85 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   padding: 10px 20px;
   text-decoration: none;
 }
+
+.parttwelve {
+  background-color: #0E1021;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.parttwelve .container {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.parttwelve .box {
+  width: calc(20% - 20px);
+  padding: 20px;
+  text-align: left;
+  color: silver;
+  font-weight: 200;
+  margin: 10px;
+}
+.parttwelve .box h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+  padding-bottom: 14px;
+  color: white;
+}
+.parttwelve .box p {
+  font-size: 16px;
+}
+.parttwelve .wide-box {
+  width: calc(40% - 20px);
+}
+.parttwelve .wide-box img {
+  padding-bottom: 20px;
+}
+
+.lastpart {
+  background-color: #0E1021;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.lastpart .line {
+  border: 1px solid grey;
+}
+.lastpart .container {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lastpart p {
+  padding-top: 10px;
+  font-size: 18px;
+  text-align: left;
+  max-width: 50%;
+  color: silver;
+  font-weight: 200;
+}
+.lastpart .social-media {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 50%;
+}
+.lastpart .social-media nav a {
+  margin-left: 20px;
+}
+.lastpart .social-media nav i {
+  color: silver;
+  font-size: 24px;
+}
+.lastpart .social-media nav i:hover {
+  color: black;
+}
